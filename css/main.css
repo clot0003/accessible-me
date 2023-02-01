@@ -69,3 +69,16 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
+.skip {
+  padding: 8px;
+  position: absolute;
+  left: 50%;
+  height: 31px;
+  transform: translateY(-100%);
+  transition: transform 0.3s;
+}
+
+a:focus {
+  transform: translateY(0%);
+}
